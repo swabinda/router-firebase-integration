@@ -2,7 +2,7 @@ import React from 'react';
 import useFirebase from '../../Hooks/useFirebase';
 
 const Login = () => {
-	const { signInWithGoogle } = useFirebase();
+	const { signInWithGoogle} = useFirebase();
 	const handleSubmit = e => {
 		e.preventDefault();
 	}
